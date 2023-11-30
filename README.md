@@ -6,7 +6,7 @@ How to use:
   npm install -g live-server
   live-server
 
-2. To access the web application simply create a QR code using https://www.qr-code-generator.com/ to simulate the intended purpose this QR code should use the address of the server in our case local host port 8080.
+2. To access the web application simply create a QR code using https://www.qr-code-generator.com/ to simulate the intended purpose this appplication. QR code should use the address of the server in our case local host port 8080.
 
 3. Scan QR code to be brought to the web application or on PC once the server is started the web application will start in a new tab.
 
