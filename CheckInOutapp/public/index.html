@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <script src="https://cdn.jsdelivr.net/npm/quagga@0.12.1/dist/quagga.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <h1>Attendance System</h1>
+
+    <label for="nameInput">Name:</label>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+
+    <button id="checkInButton">Check In</button>
+    <button id="checkOutButton">Check Out</button>
+
+    <h2>Current Attendees</h2>
+    <ul id="attendeesList"></ul>
+
+    <!-- QR Code Scanner
+    <div>
+        <h2>QR Code Scanner</h2>
+        <div id="scanner" style="width: 100%;"></div>
+    </div> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
