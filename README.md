@@ -1,4 +1,4 @@
-# Basic-Check-in-out-web-application
+# Check-in-out-web-application
 
 How to use:
 
